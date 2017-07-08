@@ -1,0 +1,30 @@
+.scroll-container {
+    width: 400px;
+    height: 400px;
+    margin: auto;
+    border: 1px solid black;
+    position: relative;
+    overflow: hidden;
+}
+
+.content {
+    position: absolute;
+    top: 30px;
+    bottom: 0;
+
+    overflow: auto;
+    width: 100%;
+}
+
+.header {
+    height: 20px;
+    padding: 5px;
+    background-color: gray;
+}
+
+.content .row {
+    height: 50px;
+    padding: 0 5px;
+    margin: 5px 0;
+    border-bottom: 1px solid blue;
+}
